@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Newsletter Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>SheCodes Newsletter
+        </h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">News</a> | 
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <hr> <main>
+        <section>
+            <h2>Signup for our Newsletter!</h2>
+            
+            <form>
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full-name" required>
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="age">How old are you?</label><br>
+                <input type="number" id="age" name="age" min="13" max="120">
+                <br><br>
+
+                <label for="how-heard">How did you hear?</label><br>
+                <select id="how-heard" name="how-heard"> 
+                    <option value="">--Select--</option>
+                    <option value="social">Social Media</option>
+                    <option value="friend">Friend</option>
+                    <option value="ad">Ad</option>
+                    <option value="search">Search</option>
+                </select>
+                <br><br>
+
+                <label>What are your interests?</label><br>
+                <input type="checkbox" id="tech" name="int"> <label for="tech">Tech</label><br>
+                <input type="checkbox" id="health" name="int"> <label for="health">Health</label><br>
+                <input type="checkbox" id="biz" name="int"> <label for="biz">Business</label><br>
+                <input type="checkbox" id="ent" name="int"> <label for="ent">Entertainment</label>
+                <br><br>
+
+                <label>Frequency (Required):</label><br>
+                <input type="radio" id="d" name="freq" required> <label for="d">Daily</label><br>
+                <input type="radio" id="w" name="freq"> <label for="w">Weekly</label><br>
+                <input type="radio" id="m" name="freq"> <label for="m">Monthly</label>
+                <br><br>
+
+                <label for="comments">Any comments?</label><br>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <br><br>
+
+                <input type="submit" value="Subscribe Now">
+            </form>
+        </section>
+
+        <br>
+
+        <section>
+            <h2>Popular Topics This Week</h2>
+            <table border="1"> <tr>
+                    <th>Topic</th>
+                    <th>Articles</th>
+                    <th>Most Popular Day</th>
+                </tr>
+                <tr>
+                    <td>AI News</td>
+                    <td>14</td>
+                    <td>Monday</td>
+                </tr>
+                <tr>
+                    <td>Web Dev</td>
+                    <td>22</td>
+                    <td>Wednesday</td>
+                </tr>
+                <tr>
+                    <td>Startups</td>
+                    <td>8</td>
+                    <td>Friday</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <br><br>
+
+    <footer>
+        <p>Copyright 2026 - My Newsletter Project</p>
+    </footer>
+
+</body>
+</html>
